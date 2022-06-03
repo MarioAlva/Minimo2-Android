@@ -13,18 +13,14 @@
         android:theme="@style/Theme.MyApplication"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".SplashScreen"
+            android:exported="false" />
+        <activity
             android:name=".ProfileActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.login.LoginActivity2"
-            android:exported="false"
-            android:label="@string/title_activity_login2" />
-        <activity
             android:name=".MenuActivity"
             android:exported="false" />
-        <activity
-            android:name=".FAQsActivity"
-            android:exported="true" />
         <activity
             android:name=".SignInActivity"
             android:exported="true" />
@@ -35,10 +31,7 @@
             android:name=".LoginActivity"
             android:exported="true" />
         <activity
-            android:name=".ErrorActivity"
-            android:exported="true" />
-        <activity
-            android:name=".SplashScreen"
+            android:name=".MainFAQs"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

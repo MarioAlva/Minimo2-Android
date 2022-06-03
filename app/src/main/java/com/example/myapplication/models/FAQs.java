@@ -25,4 +25,3 @@ public class FAQs {
         this.respuesta = respuesta;
     }
 }
-
